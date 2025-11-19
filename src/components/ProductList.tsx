@@ -17,7 +17,7 @@ function ProductList() {
       {products.map((p) => (
         <Product key={p} name={p} onAdd={() => addToCart(p)} />
       ))}
-      <p>سبد خرید: {cart.join(", ")}</p>
+      <p>Buy Box: {cart.join(", ")}</p>
     </>
   );
 }
