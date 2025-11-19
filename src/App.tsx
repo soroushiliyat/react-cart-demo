@@ -10,7 +10,7 @@ function AppContent() {
 
   return (
     <div style={{ background: theme === "light" ? "#fff" : "#333", color: theme === "light" ? "#000" : "#fff", minHeight: "100vh" }}>
-      <button onClick={toggleTheme}>تغییر تم</button>
+      <button onClick={toggleTheme}>Theme Change</button>
       <ProductList />
       <Cart />
     </div>
