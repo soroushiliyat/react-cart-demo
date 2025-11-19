@@ -12,7 +12,7 @@ function Cart() {
     <>
       <button onClick={scrollToCart}>Go with scroll & useRef </button>
       <div ref={cartRef} style={{ marginTop: "100vh" }}>
-        <h2>سبد خرید</h2>
+        <h2>Buy Box</h2>
         {/* محتوای سبد */}
       </div>
     </>
