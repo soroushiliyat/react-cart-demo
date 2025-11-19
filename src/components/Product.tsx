@@ -7,8 +7,8 @@ type Props = {
 };
 
 const Product = memo(({ name, onAdd }: Props) => {
-  console.log(`${name} رندر شد`);
-  return <button onClick={onAdd}>افزودن {name}</button>;
+  console.log(`${name} Render`);
+  return <button onClick={onAdd}> + {name}</button>;
 });
 
 
